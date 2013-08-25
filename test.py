@@ -1,4 +1,4 @@
 import nester
 
-cast = ['Palin', 'Cleese', 'Idle', 'Jones', 'Gilliam', 'Chapman']
-nester.print_lol(cast)
+cast = ['Palin', 'Cleese', 'Idle', 'Jones', 'Gilliam', 'Chapman', ["Silicon"]]
+nester.print_lol(cast, 0)
