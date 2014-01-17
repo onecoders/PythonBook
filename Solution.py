@@ -6,7 +6,7 @@ Created on Jan 15, 2014
 
 '''
 
-An integer K and a non-empty zero-indexed array A consisting of N integers are given.
+        An integer K and a non-empty zero-indexed array A consisting of N integers are given.
 	A pair of integers (P, Q), such that 0 ≤ P ≤ Q < N, is called a slice of array A.
 	A bounded_slice is a slice in which the difference between the maximum and minimum values in the slice is less than or equal to K. More precisely it is a slice, such that max(A[P], A[P + 1], ..., A[Q]) − min(A[P], A[P + 1], ..., A[Q]) ≤ K.
 	The goal is to calculate the number of bounded_slices.
